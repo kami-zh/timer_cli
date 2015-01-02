@@ -45,7 +45,7 @@ module TimerCLI
       if /(?<sec>\d+)(?<variable>[s|m]{1})/ =~ time
         calculate(sec.to_i, variable)
       else
-        raise ArgumentError unless sec && variable
+        raise ArgumentError
       end
     end
 
