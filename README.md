@@ -1,5 +1,8 @@
 # TimerCli
 
+[![Build Status](https://travis-ci.org/kami30k/timer_cli.svg)](https://travis-ci.org/kami30k/timer_cli)
+[![Gem Version](https://badge.fury.io/rb/timer_cli.svg)](http://badge.fury.io/rb/timer_cli)
+
 TimerCli is a timer that runs on command line interface.
 It notifies you with Growl when time is up.
 
