@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'timer_cli'
+
+Signal.trap(:INT) { exit }
+
+TimerCli::Command.start
